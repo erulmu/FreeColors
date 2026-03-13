@@ -58,3 +58,6 @@ Unlike traditional Obsidian themes where you edit CSS files manually, FreeColors
 
 * **"St(...) is not iterable" error during import?**
   This means the JSON format does not match the expected HEX values. Always use the provided `FreeColors_Simulator.html` to generate valid, clean JSON strings.
+
+  ## 🤝 Acknowledgments
+This theme is built upon a fork of the excellent [Minimal Theme](https://github.com/kepano/obsidian-minimal) by kepano. The CSS foundation has been preserved while integrating the FreeColors dynamic JSON simulation engine and standalone Rainbow module.
