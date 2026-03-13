@@ -1,0 +1,10 @@
+{
+    "id": "FreeColors",
+    "name": "FreeColors",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "author": "erulmu (Forked from Minimal by kepano)",
+    "authorUrl": "https://erulmu.github.io/FreeColors",
+    "description": "Effortless color customization via an intuitive visual simulator, featuring automatic hierarchical palettes and vibrant rainbow folders.",
+    "isDesktopOnly": false
+}
