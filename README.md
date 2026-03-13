@@ -28,12 +28,13 @@ Unlike traditional Obsidian themes where you edit CSS files manually, FreeColors
 5. Scroll down to **CSS snippets** and toggle `FreeColors_Rainbow` to **ON**.
 
 ### Step 2: Generate Your Custom Colors
-1. Download the `FreeColors_Simulator.html` file from this repository.
-2. Open the HTML file in any modern web browser (Chrome, Firefox, Edge, etc.).
-3. Choose your **Target Mode** (Dark or Light Mode). *Warning: The exported JSON will only apply to the selected mode.*
-4. Select your Base Background (`bg1`) and Accent Color (`ax1`). The simulator will automatically calculate the UI hierarchy.
-5. Toggle and configure **Rainbow Folders** if desired.
-6. Click the **"DOWNLOAD JSON"** button to save your custom theme profile.
+1. **Choose one of the following methods:**
+   - **Method A (Web):** Go to the **[FreeColors Web Simulator](https://erulmu.github.io/FreeColors/FreeColors_Simulator.html)** directly in your browser.
+   - **Method B (Local):** Download the `FreeColors_Simulator.html` file from this repository and open it in any modern web browser (Chrome, Firefox, Edge, etc.).
+2. Choose your **Target Mode** (Dark or Light Mode). *Warning: The exported JSON will only apply to the selected mode.*
+3. Select your Base Background (`bg1`) and Accent Color (`ax1`). The simulator will automatically calculate the UI hierarchy.
+4. Toggle and configure **Rainbow Folders** if desired.
+5. Click the **"DOWNLOAD JSON"** button to save your custom theme profile.
 
 ### Step 3: Apply Colors to Obsidian
 1. In Obsidian, make sure the **Style Settings** plugin is installed and enabled.
