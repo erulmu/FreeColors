@@ -5,6 +5,6 @@
     "minAppVersion": "1.0.0",
     "author": "erulmu (Forked from Minimal by kepano)",
     "authorUrl": "https://github.com/erulmu/FreeColors",
-    "description": "Effortless color customization via an intuitive visual simulator, featuring automatic hierarchical palettes and vibrant rainbow folders.",
+    "description": "Customizable Obsidian theme featuring an external HTML Color Engine. Simulate UI elements and Rainbow Folders instantly, then import via JSON.",
     "isDesktopOnly": false
 }
