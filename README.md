@@ -11,10 +11,10 @@ This theme **requires** the [Style Settings](https://github.com/mgmeyers/obsidia
 
 Unlike traditional Obsidian themes where you edit CSS files manually, FreeColors uses a hybrid approach:
 
-1. **Design in Browser:** You use the FreeColors_Simulator (index.html) file in your browser to design your theme visually.
-2. **Export to JSON:** The simulator calculates the optimal color math (contrasts, faded texts, muted backgrounds) and generates a `.json` file.
-3. **Import to Obsidian:** You import this JSON file into the Style Settings plugin.
-4. **Render:** The included `FreeColors_Rainbow.css` snippet reads these variables and renders the interface inside Obsidian.
+1. **Design in Browser:** You use the FreeColors Simulator (index.html) file in your browser to design your theme visually.
+3. **Export to JSON:** The simulator calculates the optimal color math (contrasts, faded texts, muted backgrounds) and generates a `.json` file.
+4. **Import to Obsidian:** You import this JSON file into the Style Settings plugin.
+5. **Render:** The included `FreeColors_Rainbow.css` snippet reads these variables and renders the interface inside Obsidian.
 
 ---
 
