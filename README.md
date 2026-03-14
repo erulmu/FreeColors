@@ -1,9 +1,8 @@
 # FreeColors for Obsidian
 
-A modular Obsidian theme framework designed for total color control. FreeColors includes a standalone HTML Color Engine that allows you to visually design your color palette, instantly simulate the entire UI hierarchy (including Rainbow Folders), and export the profile directly to the **Style Settings** plugin via JSON.
+A modular Obsidian theme framework designed for total color control. FreeColors includes a standalone HTML Color Engine that allows you to visually design your color palette, instantly simulate the entire UI hierarchy, and export the profile directly to the **Style Settings** plugin via JSON.
 
-## ⚠️ Prerequisites
-This theme **requires** the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin to function. The exported colors cannot be applied without it.
+> **⚠️ Prerequisites:** This theme **requires** the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin to function. Custom color profiles and built-in features cannot be applied without it.
 
 ---
 
@@ -11,60 +10,60 @@ This theme **requires** the [Style Settings](https://github.com/mgmeyers/obsidia
 
 Unlike traditional Obsidian themes where you edit CSS files manually, FreeColors uses a hybrid approach:
 
-1. **Design in Browser:** You use the FreeColors Simulator (`index.html`) file in your browser to design your theme visually.
-2. **Export to JSON:** The simulator calculates the optimal color math (contrasts, faded texts, muted backgrounds) and generates a `.json` file.
-3. **Import to Obsidian:** You import this JSON file into the Style Settings plugin.
-4. **Render:** The theme (and the optional Rainbow snippet) reads these variables and renders the interface inside Obsidian.
+1. **Design:** Use the FreeColors Simulator (`index.html`) to design your theme visually.
+2. **Export:** The simulator calculates the optimal color math (contrasts, faded texts, muted backgrounds) and generates a `.json` profile.
+3. **Import:** Import this JSON file into the Style Settings plugin inside Obsidian.
+4. **Render:** The theme dynamically reads these variables and renders the customized interface.
 
 ---
 
 ## 🛠️ Installation & Setup Guide
 
-### Step 1: Install the FreeColors Theme
+### Step 1: Install the Theme
 1. Open Obsidian and go to **Settings > Appearance**.
-2. Under Themes, click **Manage**.
+2. Under **Themes**, click **Manage**.
 3. Search for **FreeColors** and click **Install and Use**.
 
-### Step 2: Install the Rainbow Module (Optional but Recommended)
-For the full Rainbow Folders experience, you need to add the dedicated snippet:
-1. Download the `FreeColors_Rainbow.css` file from this repository.
-2. Open your Obsidian vault and navigate to `.obsidian/snippets/`.
-3. Paste the `FreeColors_Rainbow.css` file into the `snippets` folder.
-4. In Obsidian, go to **Settings > Appearance**.
-5. Scroll down to **CSS snippets** and toggle `FreeColors_Rainbow` to **ON**.
+### Step 2: Access the Simulator
+You can use the color engine via the web or locally:
+* **Method A (Web):** Open the [FreeColors Web Simulator](https://erulmu.github.io/freecolors/) directly in your browser.
+* **Method B (Local):** Download the `index.html` file from this repository and open it in any modern web browser (no internet required).
 
 ### Step 3: Generate Your Custom Colors
-1. **Choose one of the following methods:**
-   - **Method A (Web):** Go to the **[FreeColors Web Simulator](https://erulmu.github.io/freecolors/)** directly in your browser.
-   - **Method B (Local):** Download the FreeColors Simulator `index.html` file from this repository and open it in any modern web browser.
-2. Choose your **Target Mode** (Dark or Light Mode). *Warning: The exported JSON will only apply to the selected mode.*
-3. Select your Base Background (`bg1`) and Accent Color (`ax1`). The simulator will automatically calculate the UI hierarchy.
-4. Toggle and configure **Rainbow Folders** if desired.
-5. Click the **"DOWNLOAD JSON"** button to save your custom theme profile.
+1. Choose your **Target Mode** (Dark or Light Mode). *Note: The exported JSON will only apply to the selected mode.*
+2. Select your **Base Background** (`bg1`) and **Accent Color** (`ax1`). The simulator will automatically calculate the UI hierarchy.
+3. Toggle and configure **Rainbow Folders** if desired.
+4. Click the **"DOWNLOAD JSON"** button to save your custom theme profile.
 
 ### Step 4: Apply Colors to Obsidian
-1. In Obsidian, make sure the **Style Settings** plugin is installed and enabled.
-2. Go to **Settings > Style Settings**.
-3. Click the **"Import"** button at the top right of the Style Settings menu.
-4. Use the "Import from file" option and select your downloaded `.json` file.
-5. Click **Save**. Your custom colors and Rainbow Folders will instantly apply.
+1. In Obsidian, go to **Settings > Style Settings**.
+2. Click the **"Import"** button at the top right of the Style Settings menu.
+3. Select your downloaded `.json` file.
+4. Click **Save**. Your custom colors will instantly apply.
+
+### Step 5: Enable Rainbow Folders (Optional)
+The Rainbow Folders module is now built directly into the theme. To activate it:
+1. Go to **Settings > Style Settings** and find the FreeColors section.
+2. Toggle **"Enable Rainbow Folders"** to **ON**.
+3. The folder hierarchy will instantly use the custom rainbow colors defined in your JSON profile.
 
 ---
 
 ## 🎨 Features
 * **Standalone UI Simulator:** Preview text contrasts, blockquotes, code blocks, and folder hierarchies before applying them to your vault.
 * **Intelligent Color Math:** The engine automatically calculates secondary backgrounds, muted UI borders, and faded text colors based on your primary hex inputs.
-* **Rainbow Folders Module:** A fully integrated, CSS solution for coloring the file explorer hierarchy with perfect opacity blending.
+* **Built-in Rainbow Folders:** A fully integrated, toggleable CSS solution for coloring the file explorer hierarchy with perfect opacity blending.
 
 ---
 
 ## 🐛 Troubleshooting
 
-* **Colors disappeared / Reverted to default?**
-  Ensure you are using the FreeColors theme, the `FreeColors_Rainbow.css` snippet is enabled, and that you have successfully imported a JSON file generated by the simulator.
-
+* **Colors disappeared or reverted to default?**
+  Ensure you are using the FreeColors theme and that you have successfully imported a valid JSON file generated by the simulator.
 * **"St(...) is not iterable" error during import?**
-  This means the JSON format does not match the expected HEX values. Always use the provided FreeColors Simulator to generate valid, clean JSON strings.
+  This means the JSON format does not match the expected HEX values. Always use the provided FreeColors Simulator to generate valid, clean JSON strings. Do not edit the JSON manually unless you know what you are doing.
+
+---
 
 ## 🤝 Acknowledgments
-This theme is built upon a fork of the excellent [Minimal Theme](https://github.com/kepano/obsidian-minimal) by kepano. The CSS foundation has been preserved while integrating the FreeColors dynamic JSON simulation engine and standalone Rainbow module.
+This theme is built upon a fork of the excellent [Minimal Theme](https://github.com/kepano/obsidian-minimal) by kepano. The CSS foundation has been preserved while integrating the FreeColors dynamic JSON simulation engine and the built-in Rainbow module.

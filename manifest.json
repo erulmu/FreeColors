@@ -1,8 +1,8 @@
 {
     "id": "FreeColors",
     "name": "FreeColors",
-    "version": "1.0.1",
-    "minAppVersion": "1.0.0",
+    "version": "1.0.2",
+    "minAppVersion": "1.0.2",
     "author": "erulmu (Forked from Minimal by kepano)",
     "authorUrl": "https://github.com/erulmu",
     "description": "Customizable Obsidian theme featuring an external HTML Color Engine. Simulate UI elements and Rainbow Folders instantly, then import via JSON.",
