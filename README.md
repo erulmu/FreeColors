@@ -11,7 +11,7 @@ This theme **requires** the [Style Settings](https://github.com/mgmeyers/obsidia
 
 Unlike traditional Obsidian themes where you edit CSS files manually, FreeColors uses a hybrid approach:
 
-1. **Design in Browser:** You use the `FreeColors_Simulator.html` file in your browser to design your theme visually.
+1. **Design in Browser:** You use the FreeColors_Simulator (index.html) file in your browser to design your theme visually.
 2. **Export to JSON:** The simulator calculates the optimal color math (contrasts, faded texts, muted backgrounds) and generates a `.json` file.
 3. **Import to Obsidian:** You import this JSON file into the Style Settings plugin.
 4. **Render:** The included `FreeColors_Rainbow.css` snippet reads these variables and renders the interface inside Obsidian.
@@ -29,8 +29,8 @@ Unlike traditional Obsidian themes where you edit CSS files manually, FreeColors
 
 ### Step 2: Generate Your Custom Colors
 1. **Choose one of the following methods:**
-   - **Method A (Web):** Go to the **[FreeColors Web Simulator](https://erulmu.github.io/FreeColors/FreeColors_Simulator.html)** directly in your browser.
-   - **Method B (Local):** Download the `FreeColors_Simulator.html` file from this repository and open it in any modern web browser (Chrome, Firefox, Edge, etc.).
+   - **Method A (Web):** Go to the **[FreeColors Web Simulator](https://erulmu.github.io/freecolors/)** directly in your browser.
+   - **Method B (Local):** Download the FreeColors Simulator `index.html` file from this repository and open it in any modern web browser (Chrome, Firefox, Edge, etc.).
 2. Choose your **Target Mode** (Dark or Light Mode). *Warning: The exported JSON will only apply to the selected mode.*
 3. Select your Base Background (`bg1`) and Accent Color (`ax1`). The simulator will automatically calculate the UI hierarchy.
 4. Toggle and configure **Rainbow Folders** if desired.
