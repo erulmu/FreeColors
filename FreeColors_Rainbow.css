@@ -66,12 +66,12 @@
 
 .workspace-leaf-content[data-type="file-explorer"] .nav-files-container > div > .nav-folder,
 .workspace-leaf-content[data-type="file-explorer"] .nav-folder.mod-root > .nav-folder-children > .nav-folder {
-    border-left: 6px solid var(--fc-color) !important;
-    border-top: 1px solid var(--fc-color) !important;
-    border-right: 1px solid var(--fc-color) !important;
-    border-bottom: 1px solid var(--fc-color) !important;
-    border-radius: 6px !important;
-    margin-bottom: 6px !important;
+    border-left: 3px solid var(--fc-color) !important;
+    border-top: 1px solid var(--fc-muted) !important;
+    border-right: 1px solid var(--fc-muted) !important;
+    border-bottom: 1px solid var(--fc-muted) !important;
+    border-radius: 3px !important;
+    margin-bottom: 3px !important;
     background-color: transparent !important;
 }
 
